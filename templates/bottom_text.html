@@ -1,0 +1,14 @@
+<!-- <h3>Contact Info</h3> -->
+<ul>
+	<p><h4>Socials and contacts: </h4>
+	instagram: {{ instagram }}<br>
+	 linkedIn: {{ linkedIn }}<br>
+	  github: {{ github }}
+	 </p>
+	 <b> Contact Details: </b>
+	 <ul>
+	 	{%for ph_no in contact_numbers %}
+	 	<li>{{ forloop.counter }} - {{ ph_no }}</li>
+	 	{% endfor %}
+	 </ul>
+</ul>
