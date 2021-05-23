@@ -8,4 +8,4 @@ class Product(models.Model):
 	price       = models.DecimalField(decimal_places=2, max_digits=10000)
 	# summary     = models.TextField(default='This is cool!')
 	summary     = models.TextField(blank=False, null=False)
-	# featured    = models.BooleanField()
+	featured    = models.BooleanField(default=False)

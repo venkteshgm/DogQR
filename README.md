@@ -2,6 +2,8 @@
 
 The plan is to build a landing site whose link is loaded into QR codes strapped on your furry friends.
 
+pip3 install django==2.1.5
+
 create virtual environment with
 	virtualenv -p python3 .
 start your virtual environment with
